@@ -16,7 +16,7 @@ class NextPage extends StatelessWidget{
   //      Text(name),
         Center(
           child:RaisedButton(
-              child:Text('戻る'),
+              child:Text('戻るよ'),
               onPressed:(){
                 Navigator.pop(context);
                 },
@@ -27,6 +27,9 @@ class NextPage extends StatelessWidget{
     );
     }
 /*
+
+test
+
   // 変数のデフォルトはNULL
   int i = 0;
   var v = 0;
